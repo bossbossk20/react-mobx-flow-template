@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
-import registerServiceWorker from './registerServiceWorker'
+import App from './core/App'
+import registerServiceWorker from './core/registerServiceWorker'
 
 ReactDOM.render(<App />, document.getElementById('root'))
 registerServiceWorker()
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
+  module.hot.accept('./core/App', () => {
     ReactDOM.render(<App />, document.getElementById('root'))
   })
 }
