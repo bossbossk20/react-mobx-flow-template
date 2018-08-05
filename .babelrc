@@ -1,5 +1,5 @@
 {
-  "presets": ["state-2", "env", "react"],
+  "presets": ["stage-2", "env", "react"],
   "plugins": [
     "transform-decorators-legacy",
     "flow-react-proptypes",
