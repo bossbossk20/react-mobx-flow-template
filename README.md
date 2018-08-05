@@ -27,7 +27,7 @@ src
 │   │   │
 │   │   └───index.js 
 │   │
-│   └───page1
+│   └───page2
 │       │
 │       └───index.js 
 └───index
