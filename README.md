@@ -43,7 +43,7 @@ src
 | custom-react-scripts | ^0.2.2 | 
 
 ```
-I using custom-react-script instead react-scripts cause I want use decorators without eject create-react-app
+I'm using custom-react-script instead react-scripts cause I want to use Decorators without eject create-react-app
 ```
 
 
