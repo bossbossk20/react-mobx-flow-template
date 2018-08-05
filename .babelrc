@@ -1,0 +1,20 @@
+{
+  "presets": ["state-2", "env", "react"],
+  "plugins": [
+    "transform-decorators-legacy",
+    "flow-react-proptypes",
+    "transform-class-properties",
+    [
+      "transform-runtime",
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["flow-runtime"]
+    }
+  }
+}
